@@ -1,9 +1,10 @@
-# A simple react project using ethers (sepolia test net) for predictign a random number using smart contract
+# Lucky Number
 
-### Step 1: connect to wallet (e.g: metamask, ...).
+A simple React project using Ethers (Sepolia testnet) for predicting a random number using a smart contract.
 
-### Step 2: deposit an amount of ethers for start.
+## How to Play
 
-### Step 3: pick a number from 1 to 14 and money for betting.
-
-### Step 4: Hit the play button and wait for the result. If the lucky number is the chosen, receive double stake.
+1. **Connect to a wallet** (e.g., MetaMask, etc.).
+2. **Deposit an amount of ether** to start.
+3. **Pick a number** from 1 to 14 and choose the amount to bet.
+4. **Hit the play button** and wait for the result. If the lucky number matches your chosen number, you will receive double your stake.
