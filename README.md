@@ -1,4 +1,4 @@
-A simple react project for betting money for a random number using smart contract
+A simple react project using ethers (sepolia test net) for predictign a random number using smart contract
 
 Step 1: connect to wallet (e.g: metamask, ...)
 Step 2: deposit an amount of ethers for start
