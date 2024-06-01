@@ -43,7 +43,7 @@ function App() {
     setBalance(ethers.formatEther(_balance));
 
     // connect to the contract
-    const contractAddress = new Contract(AddressContract.address, HighLow.abi, signer);
+    const contractAddress = new Contract(AddressContract.address, HighLow.abi, signer); // 3 parameters are required: address, abi, signer
     setContract(contractAddress);
 
     contractAddress.on("Result", (isWon, winner) => {
@@ -110,7 +110,7 @@ function App() {
               display: contract ? "none" : "block"
             }
 
-          }>Connect</button>
+          }>Connect </button>
 
       </header>
     </div>
